@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    margin-left: 5%;
+    width:100vw;
+    overflow-x: hidden;
+    background-color: #F5F5F5;
+    height: 100vh;
+    background:url('CARTHAGE\ TRADE/group 8.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.about{
+    color: #136CA5;
+    text-decoration: underline;
+  
+    
+}
+a{
+    text-decoration: none;
+    color: #2C2C2C;
+    font: normal normal bold 18px/33px Cairo;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 20%;
+}
+ul li {
+    padding: 25px;
+}
+footer{
+    position:absolute;
+    bottom: 0;
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+    width:100% ;
+}
+span{
+    font: normal normal normal 10px Cairo;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+h1{
+    color: #136CA5;
+    font-size: 32px;
+}
+p{
+    width:509px;
+    margin-top: 2.5%;
+   font-size: 18px;
+}
+.main{
+    margin-top: 5%;
+    margin-left: 9%;
+}
+#logoo{
+    color:  #2C2C2C;
+    padding: 1px;
+  }
+.{
+    color: #9EC422;
+    width: 18px;
+    height: 18px;
+}

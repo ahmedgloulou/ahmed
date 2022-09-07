@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: normal normal bold Cairo;
+}
+body{
+    height: 100vh;
+    background: url('Boxes_Mockup_v02.png'),
+    url('CARTHAGE\ TRADE/group 8.png');
+    background-repeat: no-repeat;
+    background-position: 680px 160px,center;
+    background-size:  1033px 927px ,cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-left: 5%;
+    
+    
+
+}
+#logo{
+    position: relative;
+}
+footer{
+   position:absolute;
+    bottom: 0;
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+    width:100% ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 20%;
+}
+ul li {
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    color: #2C2C2C;
+    font: normal normal bold 18px/33px Cairo;
+}
+.main{
+    margin-top: 15%;
+   
+    
+}
+h1{
+font: normal normal bold 68px/128px Cairo;
+letter-spacing: 0px;
+color: #2C2C2C;
+}
+h2{
+    color: #7B7B7B;
+    font: normal normal normal 38px/72px Cairo;
+}
+#logoo{
+  color:  #2C2C2C;
+  padding: 1px;
+}
+span{
+    font: normal normal normal 10px Cairo;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+.home{
+    color: #136CA5;
+    text-decoration: underline;
+    
+}
