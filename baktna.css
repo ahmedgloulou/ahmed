@@ -1,0 +1,262 @@
+@font-face{
+    font-family: myFont;
+    src:url(Kufam-Black.ttf)
+}
+@font-face{
+    font-family: myFontt;
+    src:url(Kufam-Medium.ttf)
+}
+@font-face{
+    font-family: myFonttt;
+    src:url(Kufam-Bold.ttf)
+}
+@font-face{
+    font-family: myFontttt;
+    src:url(Kufam-Regular.ttf)
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     margin: 20px 8% 0 8%;
+     overflow-x: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width:55%;
+}
+ul li {
+    padding: 10px 1%;
+}
+ul li a {
+    color: #15375E;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: myFontt;
+}
+.containersels{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+}
+.article{
+    width:254px;
+    height: 304px;
+    text-align: right;
+    padding: 40px 20px;
+    position: relative;
+
+}
+
+.logo{
+    width:140px;  
+}
+span{
+    color: #81878B;
+    font-family: myFontttt;
+    font-size: 14px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 11px;
+}
+h2{
+   color: #5F657E;
+   font-size: 20px;
+   font-family: myFontt;
+
+
+}
+h1{
+    color: #15375E;
+    font-size: 26px;
+    font-family: myFont;
+    margin-top: 6%;
+    margin-bottom: 20px;
+    
+}
+.article a{
+    background-color: #FDC61B;
+    padding: 8px 58px;
+    font-size: 20px;
+    color: #ffff;
+    font-family: myFonttt;
+    text-decoration: none;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+
+
+}
+    p{
+        color: #15375E;
+        font-size: 14px;
+        font-family: myFonttt;
+        margin-bottom: 40px;
+    }
+    ion-icon{
+        color: #ffff;
+        position: relative;
+        top: -53px;
+        z-index: 1;
+       left: 13px;
+       font-weight: 1200;
+
+    }
+    .rs{
+    color: #15375E;
+    font-size: 18px;
+    font-family: myFont;
+    margin-left: 15px;
+    }
+    .rss{
+    color: #15375E;
+    font-size: 18px;
+    font-family: myFont;
+    margin-left: 15px;
+    }
+    .article:hover{
+        border: 3px #FDC61B solid;
+        border-radius: 15px;
+    }
+    .dddddddd{
+        color: #414649;
+        font-size: 38px;
+        text-align: right;
+    }
+    .ddddddddd{
+        text-align: right;
+        color: #414649;
+        font-size: 19px;
+    }
+   .ddd{
+float: right;   
+background-color: #FDC61B;
+font-size: 14px;
+color: #15375E;
+padding: 3px 7px;
+border-radius: 14px;
+position: relative;
+bottom: 9px;
+
+}
+.paragrth{
+    margin-top:17px;
+     color:#5F657E; 
+     font-size:14px;
+}
+.rs{
+    color:#15375E;
+     font-size: 32px;
+     letter-spacing: 1px;
+}
+.rss{
+    color:#15375E;
+     font-size:18px;
+      font-family:myFont;
+      margin-left: 26px;
+     
+}
+.rsss{
+    color:#15375E;
+    font-size:20px;
+     font-family:myFont;
+     margin-right:6px;
+}
+.spansss{
+    background-color: #FDC61B;
+    border-radius: 25px;
+    height:55px;
+    font-size:20px;
+    text-align: center;
+    font-family: myFont;
+     color: #FFFFFF;
+     padding: 14px 30px 6px 30px;
+}
+.heads{
+    background-color: #ffff;
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   margin-top: 3%;
+
+}
+.heads h1{
+    font-size: 30px;
+}
+.heads p{
+    font-size: 14px;
+    color: #5F657E;
+}
+.theleftside{
+    display: flex;
+    text-align: left;
+}
+.rtitle{
+    font-size:30px ;
+    line-break:39px;
+    margin-top: 200px;
+}
+.lifter{
+    display:flex;
+    justify-content:space-between;
+     gap:22px; 
+     width:100%; 
+     padding: 0%;
+     margin: 0;
+     margin-bottom: 10%;
+}
+.lifterparagrath{
+    margin-bottom:20px;
+}
+.secartic{
+    width:254px;
+    height: 604px;
+    text-align: right;
+    padding: 5px 20px 10px 0;
+    position: relative;
+
+}
+.rrpar{
+    font-size:14px; 
+    color:#15375E;
+    font-family:myFontttt;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+.titlllllllllls{
+  font-size: 14px;color:#15375E; margin-bottom: 30px;margin-top:-20px;font-family: myFontttt;
+}
+.thisisbt{
+    background-color: #FDC61B;
+    padding: 8px 58px;
+    font-size: 20px;
+    color: #ffff;
+    font-family: myFonttt;
+    text-decoration: none;
+    border-radius: 25px;
+
+}
+#thisisbtn{
+   position: absolute;
+   bottom: 0px;
+   left: 40px;
+   
+}
+.secartic:hover{
+    border: 3px #FDC61B solid;
+        border-radius: 15px;
+}

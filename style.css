@@ -1,0 +1,284 @@
+@font-face{
+    font-family: myFont;
+    src:url(Kufam-Black.ttf)
+}
+@font-face{
+    font-family: myFontt;
+    src:url(Kufam-Medium.ttf)
+}
+@font-face{
+    font-family: myFonttt;
+    src:url(Kufam-Bold.ttf)
+}
+@font-face{
+    font-family: myFontttt;
+    src:url(Kufam-Regular.ttf)
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     margin: 20px 139px 0 139px;
+     overflow-x: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width:55%;
+}
+ul li {
+    padding: 10px 30px;
+}
+ul li a {
+    color: #15375E;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 28px;
+    font-family: myFontt;
+    
+
+}
+.logo{
+    width:140px;  
+}
+.maincontent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.dashboradimg{
+    position: relative;
+    left: -15px;
+}
+.rightside{
+    margin-top: 4%;
+    width:663px;
+}
+.rightside h1 {
+    text-align: right;
+    font-family: myFont;
+    Color:#414649;
+    font-size: 36px;
+    line-height: 40px;
+}
+.paragraphrightside{
+    font-size: 14px;
+    color: #414649;
+    line-height: 20px;
+    font-family: myFontt;
+    text-align: right;
+    margin-top: 30px;
+}
+.thisisbtn{
+    background-color: #FDC61B;
+    color: #F8F8F8;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: myFonttt;
+    text-decoration: none;
+    border-radius:25px;
+    float: right;
+    margin-top: 60px;
+}
+.thisisbtntoo{
+    background-color: #FDC61B;
+    color: #F8F8F8;
+    padding: 15px 40px 35px 40px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: myFonttt;
+    text-decoration: none;
+    border-radius:25px;
+   position: absolute;
+   left: -115px;
+   transform: rotate(90deg); 
+   top: 360px;
+
+}
+.title{
+    margin-top: 400px;
+    text-align: center;
+    font-family: myFont;
+    Color:#414649;
+    font-size: 38px;
+    line-height: 49px;
+}
+.content{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top:95px;
+}
+.secondpartsec{
+    width:670px;
+}
+.secondpartsec h1{
+    text-align: right;
+    font-family: myFont;
+    Color:#414649;
+    font-size: 38px;
+    line-height: 49px;
+
+}
+.secondpartsec p{
+    font-size: 14px;
+    color: #414649;
+    line-height: 20px;
+    font-family: myFontt;
+    text-align: right;
+    margin-top: 30px;
+}
+span{
+    color: #FDC61B;
+}
+ion-icon{
+    color: #15375E;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 50px 27px 0 27px;
+}
+.dosts{
+    color: #15375E;
+    font-weight: bolder;
+    font-size:58px ;
+    margin-right: 3px;
+}
+.dtos{
+    float: right;
+}
+.services{
+    margin-top: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.services section h1 {
+    text-align: center;
+    font-family: myFontt;
+    font-size: 20px;
+
+}
+.moreandmore{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.moreandmore h1{
+    text-align: right;
+    font-family: myFonttt;
+    font-size: 29px;
+    padding: 0 30px;
+}
+.rdtitle{
+    text-align: center;
+    font-family: myFonttt;
+    font-size: 30px;
+    margin-top: 145px;    
+}
+.tasouira{
+    display: flex;
+    justify-content: center;
+
+}
+.phne{
+    margin-top: 61px;
+
+}
+.leftconent{
+    position: relative;
+    bottom: 470px;
+    width:344px;
+    right: 70px;
+    margin-right: 100px;
+
+
+
+}
+.leftconent section{
+background-color: #ffff;
+text-align: right;
+
+}
+.leftconent section h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: myFontttt;
+}
+.leftconent p{
+    text-align: right;
+    margin-bottom: 40px;
+    font-family: myFont;
+    font-size: 20px;
+    color: #414649;
+    }
+.rightcvontent{
+    position: relative;
+    bottom: 470px;
+    width:300px;
+    margin-left: 250px;
+    
+    
+}
+.rightcvontent section{
+    background-color: #ffff;
+    text-align: right;
+    
+    }
+    .rightcvontent section h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-family: myFontttt;
+    }
+    .rightcvontent p{
+        text-align: right;
+        margin-bottom: 40px;
+        font-family: myFont;
+        font-size: 20px;
+        color: #414649;
+        }
+.test{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: #FDC61B 4px solid;
+    width: 100vw;
+    padding: 50px 100px 50px 100px;
+    margin-left:-139px;
+    text-align: right;
+    color: #414649;
+    font-family: myFontttt;
+}
+footer h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+footer p{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+.face{
+    margin-right: 20px;
+}
+h6{
+    margin-bottom: 50px;
+}
+ul li :hover{
+    color: #FDC61B;
+    text-decoration: underline 3px;
+  
+}
